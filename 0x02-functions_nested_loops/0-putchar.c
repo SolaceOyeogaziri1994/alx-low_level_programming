@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
- * main - prints _putchar followed by a new line
+ * main - print -putchar
  *
- * Return: Always (0) (Success)
+ * Return: (0)
+ *
  */
 int main(void)
 {
-    int i;
-    char c[] = "_putchar";
+	int i;
+	char c[] = "_putchar";
 
-    for (i = 0; i < 8; i++)
-    {
-      putchar(c[i]);
-    }
-    putchar('\n');
+	for (i = 0; i <= 7; i++)
+	{
+		putchar (c[i]);
+	}
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
